@@ -12,10 +12,7 @@ class TaskDetailsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Hero(
-          tag: task.title,
-          child: Text(task.title),
-        ),
+        title: Text(task.title),
       ),
       body: Column(
         children: [
